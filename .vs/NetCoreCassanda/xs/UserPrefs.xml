@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{E6C15077-7C43-4E69-92C1-721C013DF505}|Default">
+  <MonoDevelop.Ide.ItemProperties.NetCoreCassanda PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NetCoreCassanda/Program.cs">
+    <Files>
+      <File FileName="NetCoreCassanda/Program.cs" Line="68" Column="31" />
+      <File FileName="NetCoreCassanda/User.cs" Line="27" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NetCoreCassanda" expanded="True">
+            <Node name="NetCoreCassanda" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

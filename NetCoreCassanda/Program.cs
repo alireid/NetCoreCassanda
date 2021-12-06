@@ -63,13 +63,13 @@ namespace NetCoreCassanda
 
 
 			// Update data
-			int idToGet = 1;
-			User userToUpdate = await mapper.SingleAsync<User>("where id = ?", idToGet);
-			await mapper.UpdateAsync<User>(string.Format("SET connections = connections + ? WHERE id = {0}", idToGet));
+			int userId = 1;
+			User userToUpdate = await mapper.SingleAsync<User>("where id = ?", userId);
+			await mapper.UpdateAsync<User>("SET user_bcity = ? WHERE id = ?", "City updated", userId);
 
 
 			// Delete data
-			await mapper.DeleteAsync<User>("WHERE id = ?", idToGet);
+			await mapper.DeleteAsync<User>("WHERE id = ?", userId);
 
 			Console.WriteLine("Select ALL");
 			Console.WriteLine("-------------------------------");
