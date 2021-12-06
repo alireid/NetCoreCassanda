@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = CassandraQuickStart
+build_property.ProjectDir = /Users/alireid/Documents/Projects/azure-cosmos-db-cassandra-dotnet-core-getting-started/CassandraQuickStart/
